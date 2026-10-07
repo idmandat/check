@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idmandat"
+version = "0.1.0"
+description = "Check who stands behind an AI agent – client for the open ID MANDAT registry"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [{ name = "Manja König" }]
+keywords = ["ai-agents", "registry", "mcp", "identity"]
+
+[project.optional-dependencies]
+verify = ["cryptography"]
+
+[project.urls]
+Homepage = "https://idmandat.com"
+Source = "https://github.com/idmandat/check"
+
+[tool.setuptools]
+py-modules = ["idmandat"]
