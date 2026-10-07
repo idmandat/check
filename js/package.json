@@ -1,0 +1,15 @@
+{
+  "name": "@idmandat/check",
+  "version": "0.1.0",
+  "description": "Check who stands behind an AI agent – client for the open ID MANDAT registry",
+  "type": "module",
+  "main": "idmandat.mjs",
+  "exports": "./idmandat.mjs",
+  "files": ["idmandat.mjs", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "author": "Manja König",
+  "homepage": "https://idmandat.com",
+  "repository": { "type": "git", "url": "git+https://github.com/idmandat/check.git" },
+  "keywords": ["ai-agents", "registry", "mcp", "identity"]
+}
