@@ -13,12 +13,11 @@ keywords = ["ai-agents", "registry", "mcp", "identity"]
 
 [project.optional-dependencies]
 verify = ["cryptography"]
-langchain = ["cryptography", "langchain-core"]
-crewai = ["cryptography", "crewai"]
 
 [project.urls]
 Homepage = "https://idmandat.com"
 Source = "https://github.com/idmandat/check"
 
 [tool.setuptools]
-py-modules = ["idmandat", "idmandat_langchain", "idmandat_crewai"]
+py-modules = ["idmandat"]
+
