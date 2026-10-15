@@ -1,8 +1,11 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.idmandat/registry",
-  "description": "Open registry for AI agents: who stands behind an agent, and what it may do.",
+  "name": "io.github.idmandat/registry",
+  "title": "ID MANDAT – Registry for AI Agents",
+  "description": "Open registry for AI agents: check who stands behind an agent and what it may do.",
   "version": "0.1.0",
+  "websiteUrl": "https://idmandat.com",
+  "repository": { "url": "https://github.com/idmandat/check", "source": "github" },
   "remotes": [
     { "type": "streamable-http", "url": "https://idmandat.com/mcp" }
   ]
