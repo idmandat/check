@@ -2,7 +2,7 @@
 
 Client libraries for [ID MANDAT](https://idmandat.com), the open registry that shows who stands behind an AI agent and what it may do.
 
-**Status: preview.** The libraries are ready; the signed check API goes live shortly after the launch of idmandat.com. Until then `check()` returns `unknown`.
+**Status: beta.** Reads the live, Ed25519-signed API at `https://idmandat.com/api/v1/verify`. The registry is new and small: many domains will return `unknown`, which is not a sign of wrongdoing. `may` / `mayNot` are declarations by the operator, not checked by ID MANDAT.
 
 ```python
 import idmandat
