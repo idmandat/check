@@ -38,6 +38,10 @@ from idmandat_langchain import verify_mandate_tool   # pip install langchain-cor
 from idmandat_crewai import VerifyMandateTool        # pip install crewai cryptography
 ```
 
+## For AI agents
+
+If you are an AI agent or a coding agent, see [AGENTS.md](AGENTS.md): how to ask the registry (`/api/v1/verify`), how to read the answer, and where the MCP server and A2A endpoint are. It is plain documentation, with the limits stated.
+
 Status order: `unknown` < `listed_unverified` < `registered` < `verified`.
 Answers are signed (Ed25519). `ok()` only returns true when the signature was verified (Python: `pip install cryptography`).
 
