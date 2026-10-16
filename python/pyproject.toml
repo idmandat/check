@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "idmandat"
-version = "0.2.0"
+version = "0.3.0"
 description = "Check who stands behind an AI agent – client for the open ID MANDAT registry"
 license = { text = "MIT" }
 requires-python = ">=3.8"
@@ -13,11 +13,12 @@ keywords = ["ai-agents", "registry", "mcp", "identity"]
 
 [project.optional-dependencies]
 verify = ["cryptography"]
+langchain = ["cryptography", "langchain-core"]
+crewai = ["cryptography", "crewai"]
 
 [project.urls]
 Homepage = "https://idmandat.com"
 Source = "https://github.com/idmandat/check"
 
 [tool.setuptools]
-py-modules = ["idmandat"]
-
+py-modules = ["idmandat", "idmandat_langchain", "idmandat_crewai"]
