@@ -32,6 +32,7 @@ Answers are signed (Ed25519). The public keys are at `https://idmandat.com/api/v
 - Standard (CC BY 4.0): https://github.com/idmandat/standard
 - For shops, including house rules for agents: https://idmandat.com/en/for-shops.html
 - State of play, with sources and limits: https://idmandat.com/en/state-of-play.html
+- Playground with fictional companies and a task that changes daily (nothing stored): https://idmandat.com/en/playground.php, task as JSON: https://idmandat.com/spielplatz-api.php?a=task
 
 ## Use the libraries
 
