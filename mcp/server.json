@@ -1,12 +1,15 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.idmandat/registry",
-  "title": "ID MANDAT – Registry for AI Agents",
-  "description": "Open registry for AI agents: check who stands behind an agent and what it may do.",
-  "version": "0.1.0",
-  "websiteUrl": "https://idmandat.com",
-  "repository": { "url": "https://github.com/idmandat/check", "source": "github" },
-  "remotes": [
-    { "type": "streamable-http", "url": "https://idmandat.com/mcp" }
-  ]
+"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+"name": "io.github.idmandat/registry",
+"title": "ID MANDAT — Registry for AI Agents",
+"description": "Open registry for AI agents: check who stands behind an agent and what it may do.",
+"version": "0.1.1",
+"websiteUrl": "https://idmandat.com",
+"icons": [
+{ "src": "https://idmandat.com/apple-touch-icon.png", "mimeType": "image/png", "sizes": ["180x180"] }
+],
+"repository": { "url": "https://github.com/idmandat/check", "source": "github" },
+"remotes": [
+{ "type": "streamable-http", "url": "https://idmandat.com/mcp" }
+]
 }
